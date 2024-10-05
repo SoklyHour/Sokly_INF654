@@ -13,12 +13,25 @@ The Micro Tracker is a simple web application designed to help users track their
 - **Remove Meals**: Remove meals from the list as you complete tracking for the day.
 - **Daily Summary**: View a summary of total calories and nutrients consumed.
 
+## Technologies Used
+
+- **HTML5**: For structuring the web content.
+- **CSS3**: For styling the application.
+- **Materialize CSS**: A modern responsive front-end framework based on Material Design.
+- **JavaScript**: For implementing dynamic features.
+- **PWA Technologies**: Such as service workers and web app manifests to enhance performance and offline capabilities.
+
 ## Getting Started
-To run the application locally, follow these steps:
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository in the terminal**:
+   ```bash
+   git clone https://github.com/SoklyHour/Sokly_INF654.git
 
 ### Prerequisites
 - **Live Server extension**: Make sure to install the Live Server extension in Visual Studio Code for easy development.
 - **Web Browser**: Use any modern web browser (e.g., Chrome, Firefox, Safari).
-  
+
 ### Authors
 Contributors name: Sokly Hour 
