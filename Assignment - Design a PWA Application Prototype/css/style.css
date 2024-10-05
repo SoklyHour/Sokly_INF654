@@ -1,4 +1,11 @@
 /* General Styles */
+:root {
+  --blue: #2980b9;
+  --dark-blue: #2c3e50;
+  --gray: #7f8c8d;
+  --green: #27ae60;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
@@ -7,7 +14,7 @@ body {
 }
 
 h4, h5, h6 {
-  color: #2c3e50; /* Dark Blue */
+  color: var(--dark-blue); /* Dark Blue */
 }
 
 .container {
@@ -40,7 +47,7 @@ nav {
 }
 
 .card-title {
-  color: #2980b9; /* Blue */
+  color: var(--blue);
 }
 
 /* Center the text in the card */
@@ -54,35 +61,32 @@ nav {
 
 /* Input Field Styles */
 .input-field input {
-  border-bottom: 1px solid #2980b9;
+  border-bottom: 1px solid var(--blue);
 }
 
 .input-field input:focus {
-  border-bottom: 2px solid #2980b9;
+  border-bottom: 2px solid var(--blue);
   box-shadow: none;
 }
 
 .input-field label {
-  color: #7f8c8d; /* Gray */
+  color: var(--gray); /* Gray */
 }
 
 .input-field label.active {
-  color: #2980b9; /* Blue */
+  color: var(--blue);
 }
 
 /* Button Styles */
 .btn {
-
   transition: background-color 0.3s;
+  margin-left: 10px; /* Add some space between meal text and button */
 }
 
 .btn.blue {
-  background-color: #2980b9; /* Blue */
+  background-color: var(--blue);
 }
 
-.btn.blue:hover {
-  background-color: #1a6080; /* Darker Blue */
-}
 
 /* Summary Styles */
 .collection-item {
@@ -93,11 +97,6 @@ nav {
   border-bottom: 1px solid #ccc; /* Add a bottom border for separation */
 }
 
-.btn {
-  margin-left: 10px; /* Add some space between meal text and button */
-}
-
-/* Optional: Add some styles for the delete button */
 .btn.red {
   background-color: red; /* Red background for delete button */
   color: white; /* White text color */
@@ -106,9 +105,6 @@ nav {
   cursor: pointer; /* Change cursor on hover */
 }
 
-.btn.red:hover {
-  background-color: darkred; /* Darker red on hover */
-}
 
 /* Progress Bar */
 .progress {
@@ -116,14 +112,9 @@ nav {
 }
 
 .determinate {
-  background-color: #27ae60; /* Green */
+  background-color: var(--green); /* Green */
 }
 
-/* Chart Styles */
-canvas {
-  max-width: 100%;
-  height: auto;
-}
 
 /* Responsive Styles */
 @media (max-width: 600px) {
