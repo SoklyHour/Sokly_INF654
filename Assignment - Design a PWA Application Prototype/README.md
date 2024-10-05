@@ -19,7 +19,7 @@ The Micro Tracker is a simple web application designed to help users track their
 - **CSS3**: For styling the application.
 - **Materialize CSS**: A modern responsive front-end framework based on Material Design.
 - **JavaScript**: For implementing dynamic features.
-- **PWA Technologies**: Such as service workers and web app manifests to enhance performance and offline capabilities.
+- **Future Technologies Used - PWA Technologies**: Such as service workers and web app manifests to enhance performance and offline capabilities.
 
 ## Getting Started
 
