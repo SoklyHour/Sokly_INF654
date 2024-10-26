@@ -2,7 +2,7 @@
 
 ### INF654
 ### Sokly Hour
-### Assignment - Design a PWA Application Prototype
+### Assignment 3
 
 ## Project Title
 The Micro Tracker is a progressive web application (PWA) designed to help users track their meals and nutrient intake. Users can easily add meals to their tracker, set daily calorie goals, and view their nutritional summary.
